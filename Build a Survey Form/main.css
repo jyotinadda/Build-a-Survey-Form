@@ -1,0 +1,82 @@
+body
+{
+	background: #a9d7d1;
+	font-family: 'Raleway', Helvetica, sans-serif;
+	min-width: 320px;
+	display:block;
+	margin:8px;
+}
+#wrapper
+{
+	margin:10px auto;
+	display:block;
+	text-align:center;
+}
+
+#survey-form
+{
+	display:block;
+	text-align: left;
+	margin:0 auto;
+	max-width:900px;
+	background: #fff;
+	border-radius: 5px;
+	padding:10px;
+}
+#description
+{
+	text-align:center;
+}
+ul
+{
+	display:inline-block;
+}
+
+label
+{
+	display:inline-block;
+	margin:10px;
+	
+}
+#submit
+{
+	background: #a9d7d1;
+}
+.rowTab
+{
+	display:block;
+}
+.left-tab,.right-tab
+{
+	margin: 2px;	
+}
+.left-tab
+{
+	display: inline-block;
+    text-align: right;
+    width: 40%;
+    vertical-align: top;  
+	
+}
+.right-tab
+{
+	display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+	padding: 5px;
+	width:50%;
+}
+
+.r-btn
+{
+	text-align: left;
+	width:5%;
+}
+
+#submit
+{
+	display:center;
+	
+}
+

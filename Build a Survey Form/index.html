@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+		<div id="wrapper">
+			
+			<h1 id="title">Survey Form</h1>
+			
+			
+				<form id="survey-form">
+					<p id="description">Let us know how we can improve freeCodeCamp</p>
+					
+					<div class="rowTab">
+							<div class="left-tab">
+								<label id="name-label" for="name">Name:</label>
+							</div>
+							<div class="right-tab">
+								<input id="name" type="text" placeholder="Enter your name" required>
+							</div>
+							
+							<div class="left-tab">
+								<label id="email-label" for="email">Email:</label>
+							</div>
+							<div class="right-tab">
+									<input id="email" type="email" placeholder="Enter your Email" required>
+							</div>
+							<div class="left-tab">
+								<label  id="number-label">Age:</label>
+							</div>
+							<div class="right-tab">
+								<input id="number" type="number" placeholder="Age" min="1" max="125">
+							</div>
+					
+							<div class="left-tab">
+								<label>Which option best describes your current role?</label>
+							</div>
+								<div class="right-tab">
+									<select id="dropdown">
+										<option disabled>Select an option</option>
+										<option>Student</option>
+										<option>Full Time Job</option>
+										<option>Full Time Learner</option>
+										<option>Prefer not to say</option>
+										<option>Other</option>
+									</select><br>
+								</div>
+							
+						
+							<div class="left-tab">
+								<label>How likely is that you would recommend freeCodeCamp to a friend?</label>
+							</div>
+								<div class="right-tab">
+									<input class="r-btn" type="radio" name="abc" value="definitely">Definitely<br>
+									<input class="r-btn" type="radio" name="abc" value="maybe">Maybe<br>
+									<input class="r-btn" type="radio" name="abc" value="not-sure">Not sure<br>
+								</div>
+							
+					
+							<div class="left-tab">
+								<p>What do you like most in FCC:</p>
+							</div>
+							<div class="right-tab">
+								<select>
+									<option>Select an option</option>
+									<option>Challenges</option>
+									<option>Projects</option>
+									<option>Community</option>
+									<option>Open Source</option>
+								</select>
+							</div>
+							
+							<div class="left-tab">
+								<p>Things that should be improved in the future<br>(Check all that apply):</p>
+							</div>
+							<div class="right-tab">
+								<input class="checkbox" type="checkbox" value="front-end-projects">Front-end Projects<br>
+								<input class="checkbox" type="checkbox" value="back-end-projects">Back-end Projects<br>
+								<input type="checkbox" value="data-visualization">Data Visualization<br>
+								<input type="checkbox" value="challenges">Challenges<br>
+								<input type="checkbox" value="open-source-community">Open Source Community<br>
+								<input type="checkbox" value="gitter-help-rooms">Gitter help rooms<br>
+								<input type="checkbox" value="videos">Videos<br>
+								<input type="checkbox" value="city-meetups">City Meetups<br>
+								<input type="checkbox" value="wiki">Wiki<br>
+								<input type="checkbox" value="forum">Forum<br>
+								<input type="checkbox" value="additional-courses">Additional Courses<br>
+							</div>
+							<div class="left-tab">
+								<p>Any Comments or Suggestions?</p>
+							</div>
+							<div class="right-tab">
+								<textarea placeholder="Enter your comment here..."></textarea>	<br>
+							</div>
+							
+							<input id="submit" type="submit">
+				
+			</form>
+		</div>
+	</body>
+</html>
